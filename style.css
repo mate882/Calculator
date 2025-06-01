@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+
+#calculator {
+    width: 200px;
+    height: 310px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#result {
+    width: 90%;
+    height: 20px;
+    background-color: #222;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: #555;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+button:active {
+    background-color: #999;
+}
+
+#btn1{
+    transform: translate(-5px, -20px);
+}
+
+#btn2{
+    transform: translate(-5px, -20px);
+}
+
+#btn3{
+    background-color: rgb(226, 149, 7);
+    transform: translate(-5px, -20px);
+}
+#btn3:hover {
+    background-color: rgb(255, 170, 0);
+}
+
+#btn4{
+    background-color: rgb(226, 149, 7);
+    transform: translate(155px, -70px);
+}
+#btn4:hover {
+    background-color: rgb(255, 170, 0);
+}
+
+#btn5{
+    background-color: rgb(226, 149, 7);
+    transform: translate(100px, -15px);
+}
+#btn5:hover {
+    background-color: rgb(255, 170, 0);
+}
+
+#btn6{
+    background-color: rgb(226, 149, 7);
+    transform: translate(45px, 35px);
+}
+#btn6:hover {
+    background-color: rgb(255, 170, 0);
+}
+
+#btn7{
+    transform: translate(-5px, -65px);
+}
+
+#btn8{
+    transform: translate(-5px, -65px);
+}
+
+#btn9{
+    transform: translate(-5px, -65px);
+}
+
+#btn10{
+    transform: translate(-5px, -65px);
+}
+
+#btn11{
+    transform: translate(-5px, -65px);
+}
+
+#btn12{
+    transform: translate(-5px, -65px);
+}
+
+#btn13{
+    transform: translate(-5px, -65px);
+}
+
+#btn14{
+    transform: translate(-5px, -65px);
+}
+
+#btn15{
+    transform: translate(-5px, -65px);
+}
+
+#btn16{
+    transform: translate(50px, -65px);
+}
+
+#btn17{
+    background-color: rgb(226, 149, 7);
+    transform: translate(100px, -115px);
+}
+#btn17:hover {
+    background-color: rgb(255, 170, 0);
+}
+
+#btn18{
+    transform: translate(-5px, -65px);
+}
+
+.fa-brands{
+    color: white;
+    background-color: #555;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.fa-github{
+    transform: translate(0px, -110px);
+}
+.fa-github:hover {
+    color: #777;
+}
+
+.fa-youtube{
+    transform: translate(115px, -110px);
+}
+.fa-youtube:hover {
+    color: #777;
+}
