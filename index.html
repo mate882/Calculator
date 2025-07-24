@@ -6,32 +6,65 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/86be0d69cf.js" crossorigin="anonymous"></script>
-    <title>Calculator</title>
+    <title>Scientific Calculator</title>
 </head>
 <body>
     <div id="calculator">
-        <h1 id="result"></h1><br>
-        <button id="btn1">C</button>
-        <button id="btn2"><</button>
-        <button id="btn3">/</button><br>
-        <button id="btn4">*</button>
-        <button id="btn5">+</button>
-        <button id="btn6">-</button><br>
-        <button id="btn7">9</button>
-        <button id="btn8">8</button>
-        <button id="btn9">7</button><br>
-        <button id="btn10">6</button>
-        <button id="btn11">5</button>
-        <button id="btn12">4</button><br>
-        <button id="btn13">3</button>
-        <button id="btn14">2</button>
-        <button id="btn15">1</button><br>
-        <button id="btn16">0</button>
-        <button id="btn17">=</button>
-        <button id="btn18">.</button>
-        <a href="https://github.com/mate882"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.youtube.com/@CodeCraftAcademy-f3k"><i class="fa-brands fa-youtube"></i></a> 
+        <div id="display">
+            <div id="history"></div>
+            <h1 id="result">0</h1>
+        </div>
+        
+        <div class="button-grid" id="basic-grid">
+            <button id="btn-clear" class="function-btn">C</button>
+            <button id="btn-backspace" class="function-btn">⌫</button>
+            <button id="btn-percent" class="function-btn">%</button>
+            <button id="btn-divide" class="operator-btn">÷</button>
+            
+            <button id="btn-7" class="number-btn">7</button>
+            <button id="btn-8" class="number-btn">8</button>
+            <button id="btn-9" class="number-btn">9</button>
+            <button id="btn-multiply" class="operator-btn">×</button>
+            
+            <button id="btn-4" class="number-btn">4</button>
+            <button id="btn-5" class="number-btn">5</button>
+            <button id="btn-6" class="number-btn">6</button>
+            <button id="btn-subtract" class="operator-btn">−</button>
+            
+            <button id="btn-1" class="number-btn">1</button>
+            <button id="btn-2" class="number-btn">2</button>
+            <button id="btn-3" class="number-btn">3</button>
+            <button id="btn-add" class="operator-btn">+</button>
+            
+            <button id="btn-sci" class="scientific-toggle-btn">SCI</button>
+            <button id="btn-0" class="number-btn">0</button>
+            <button id="btn-decimal" class="number-btn">.</button>
+            <button id="btn-equals" class="equals-btn">=</button>
+        </div>
+        
+        <div class="scientific-panel" id="scientific-panel">
+            <div class="scientific-grid">
+                <button id="btn-sin" class="scientific-btn">sin</button>
+                <button id="btn-cos" class="scientific-btn">cos</button>
+                <button id="btn-tan" class="scientific-btn">tan</button>
+                <button id="btn-sqrt" class="scientific-btn">√</button>
+                
+                <button id="btn-log" class="scientific-btn">log</button>
+                <button id="btn-ln" class="scientific-btn">ln</button>
+                <button id="btn-power" class="scientific-btn">x²</button>
+                <button id="btn-exp" class="scientific-btn">eˣ</button>
+                
+                <button id="btn-pi" class="scientific-btn">π</button>
+                <button id="btn-negative" class="function-btn">±</button>
+                <button id="btn-close-sci" class="function-btn">×</button>
+                <button id="btn-factorial" class="scientific-btn">n!</button>
+            </div>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://github.com/mate882"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.youtube.com/@CodeCraftAcademy-f3k"><i class="fa-brands fa-youtube"></i></a>
+        </div>
     </div>
-    
 </body>
 </html>
